@@ -1,0 +1,29 @@
+{
+  "name": "vue3-markdown-wechat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@kangc/v-md-editor": "^2.3.14",
+    "highlight.js": "^11.8.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@types/codemirror": "^5.60.9",
+    "@types/node": "^20.5.6",
+    "@types/prismjs": "^1.26.0",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "sass": "^1.45.0",
+    "sass-loader": "^12.4.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vite-plugin-prismjs": "^0.0.8",
+    "vue-tsc": "^0.29.8"
+  }
+}
