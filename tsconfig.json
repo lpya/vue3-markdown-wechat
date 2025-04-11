@@ -10,14 +10,31 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "types": ["element-plus/global","vite/client"],
-    "lib": ["esnext", "dom"],
+    "types": [
+      "element-plus/global",
+      "vite/client"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "baseUrl": "./",
     "paths": {
-      "@": ["src"],
-      "@/*": ["src/*"],
-      "*": ["@types/*"]
+      "@": [
+        "src"
+      ],
+      "@/*": [
+        "src/*"
+      ],
+      "*": [
+        "@types/*"
+      ]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ]
 }
